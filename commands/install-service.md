@@ -2,21 +2,25 @@ I want you to setup the $ARGUMENTS service on this NixOS host, either as a nativ
 
 I want to accomplish the following:
 
-1. manage any needed secrets with SOPS
+1. Manage any needed secrets with SOPS
 
-  * never reveal secrets in this chat; ask me to create and install them for you
+  * Never reveal secrets in this chat; ask me to create and install them for you
 
-2. setup an nginx virtual host for this service, creating a TLS certificate for the new domain so it can be accessed using HTTPS
+2. Setup an nginx virtual host for this service, creating a TLS certificate for the new domain so it can be accessed using HTTPS
 
-  * do not try to generate the certificate yourself, but ask me to generate it for you when you get to that point
+  * DO NOT try to generate the certificate yourself, but ask me to generate it for you when you get to that point
 
-3. setup Prometheus monitor to gather metrics about the service
+3. Setup Prometheus monitor to gather metrics about the service
 
-4. setup Alertmanager to ensure the health of the service
+4. Setup Alertmanager to ensure the health of the service
 
-5. setup a link under an appropriate section on my Glance dashboard
+5. If this service presents a full set of new metrics, create a Grafana dashboard for visualizing those metrics. Use Perplexity MCP to search for possible existing dashboard for this service that may be used, if available.
 
-6. test to ensure the newly installed service is working before you finish your work
+6. Setup a link under an appropriate section on my Glance dashboard
+
+7. If a new filesystem is being created to support this service, add it to the set of available Samba mounts
+
+8. Test to ensure the newly installed service is working before you finish your work
 
 Everything you do should be coherent with the other services on this NixOS machine. Do not reveal ANY secrets during this chat, and always ask me if you need to create a new SOPS secret or you need to create a Web SSL certificate.
 
