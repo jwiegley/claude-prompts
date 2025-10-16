@@ -12,3 +12,13 @@ Follow these steps:
 8. Push and create a PR
 
 Remember to use the GitHub CLI (`gh`) for all GitHub-related tasks.
+
+- Use cpp-pro or python-pro or emacs-lisp-pro or rust-pro as needed for
+  diagnosing and analyzing issues, fixing code, and writing any new code.
+- Use Web Search and Perplexity as need for research and discovering resources.
+- Use sequential-thinking when appropriate to break down tasks further.
+- Use context7 whenever code examples might help.
+- Use memory-keeper with channel: <project_name>
+- Save progress at every major milestone
+- Document all decisions with category: "decision"
+- Track implementation status with category: "progress"
