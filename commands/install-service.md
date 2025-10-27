@@ -19,13 +19,15 @@ I want to accomplish the following:
 
 4. Setup Alertmanager to ensure the health of the service
 
-5. If this service presents a full set of new metrics, create a Grafana dashboard for visualizing those metrics. Use Perplexity MCP to search for possible existing dashboard for this service that may be used, if available.
+5. Setup Nagios monitoring to confirm the health of the service, in addition to Prometheus
 
-6. Setup a link under an appropriate section on my Glance dashboard
+6. If this service presents a full set of new metrics, create a Grafana dashboard for visualizing those metrics. Use Perplexity MCP to search for possible existing dashboard for this service that may be used, if available.
 
-7. If a new filesystem is being created to support this service, add it to the set of available Samba mounts
+7. Setup a link under an appropriate section on my Glance dashboard
 
-8. Test to ensure the newly installed service is working before you finish your work
+8. If a new filesystem is being created to support this service, add it to the set of available Samba mounts
+
+9. Test to ensure the newly installed service is working before you finish your work
 
 Everything you do should be coherent with the other services on this NixOS machine. Do not reveal ANY secrets during this chat, and always ask me if you need to create a new SOPS secret or you need to create a Web SSL certificate.
 
