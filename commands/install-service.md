@@ -35,4 +35,4 @@ Use Web Search and Perplexity MCP as needed to discover what is the best way to 
 
 * If there is a choice of backing database, I prefer to use the PostgreSQL and Redis services already running on this server, even though you will likely need to create new users and databases within those services.
 
-Use the nixos skill and nix-pro to perform your work on these installation steps. Take as long as needed to ensure that the service is well integrated, coherent with the rest of this machine’s configuration, and functioning well before you are finished.
+Use the nixos skill to perform your work on these installation steps. Take as long as needed to ensure that the service is well integrated, coherent with the rest of this machine’s configuration, and functioning well before you are finished.
