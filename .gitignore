@@ -1,0 +1,11 @@
+/config/
+/debug/
+/file-history/
+/history.jsonl
+/plugins/
+/projects/
+/settings.json
+/settings.local.json
+/shell-snapshots/
+/statsig/
+/todos/
