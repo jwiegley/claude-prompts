@@ -21,11 +21,3 @@ Use nix-pro and nixos MCP to resolve the following issues with the current NixOS
   time to see if the file has been removed. This way, multiple nixos jobs can
   be working with the system at the same time, but only one will be building
   or switching at any given time.
-
-- Use memory-keeper with channel: <project_name>
-
-- Save progress at every major milestone
-
-- Document all decisions with category: "decision"
-
-- Track implementation status with category: "progress"
