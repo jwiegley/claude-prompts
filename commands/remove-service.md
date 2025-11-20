@@ -9,4 +9,4 @@ Everything you do should be coherent with the other services on this NixOS machi
 
 Use Web Search and Perplexity MCP as needed to discover what is the best way to fully remove the $ARGUMENTS service. Some further notes:
 
-Use the nixos skill to perform your work on these installation steps. Take as long as needed to ensure that the service is well integrated, coherent with the rest of this machine’s configuration, and functioning well before you are finished.
+Use the nixos and caveman skills to perform your work on these installation steps. Take as long as needed to ensure that the service is well integrated, coherent with the rest of this machine’s configuration, and functioning well before you are finished.
