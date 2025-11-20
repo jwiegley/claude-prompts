@@ -1,2 +1,2 @@
 Ultrathink. I'm receiving the following alert from Alertmanager. Use the nixos
-skill to diagnose and resolve it.
+and caveman skills to diagnose and resolve it.
