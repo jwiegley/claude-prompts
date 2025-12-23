@@ -1,0 +1,19 @@
+Remember the following:
+
+- Use the GitHub CLI (`gh`) for all GitHub-related tasks
+- Search the codebase for relevant files
+- Ensure code passes linting and type checking after doing any work
+- Use cpp-pro, python-pro, emacs-lisp-pro, rust-pro or haskell-pro as needed
+  for diagnosing and analyzing PRs, fixing code, and writing any new code.
+- If this worktree is anywhere under the "positron" or "pos" directories, then
+  use pal to confer with gemini-3-pro-preview and gpt-5.2-pro to reach
+  consensus on your deep analysis and review.
+- Use Web Search and Perplexity as needed for research and discovering
+  resources.
+- Use sequential-thinking when appropriate to break down tasks further.
+- Use context7 whenever code examples might help.
+
+Ultrathink. Think deeply to analyze the following query, use pal to build
+consensus among your partner LLMs and construct a well thought out plan of
+action based on the following context, and then carefully execute that plan
+step by step:

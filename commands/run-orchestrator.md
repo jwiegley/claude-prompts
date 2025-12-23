@@ -22,6 +22,11 @@ The orchestrator will:
 
 Use task-executor for specific task implementation
 
-When the orchestrator identifies task 2.3 needs work: The executor will implement that specific task
+When the orchestrator identifies task 2.3 needs work: The executor will
+implement that specific task
 
-Do not pause your work to ask if I would like to review or continue. Work continuously until the entire project is completed. Commit your work to Git after each time you reach a point where no tasks are currently running, just before you begin the next task.
+DO NOT pause your work to ask if I would like to review or continue. Work
+continuously until the entire project is completed. Commit your work to Git
+after each time you reach a point where no tasks are currently running, just
+before you begin the next task, but not stop and ask for my review or input.
+Simply continue with your tasks until you reach completion.

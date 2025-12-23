@@ -24,8 +24,8 @@ Remember the following:
 - Use cpp-pro, python-pro, emacs-lisp-pro, rust-pro or haskell-pro as needed
   for diagnosing and analyzing PRs, fixing code, and writing any new code.
 - If this worktree is anywhere under the "positron" or "pos" directories, then
-  use pal to confer with gemini 3 pro and gpt 5.2 to reach consensus on your
-  deep analysis and review.
+  use pal to confer with gemini-3-pro-preview and gpt-5.2-pro to reach
+  consensus on your deep analysis and review.
 - Use Web Search and Perplexity as need for research and discovering resources.
 - Use sequential-thinking when appropriate to break down tasks further.
 - Use context7 whenever code examples might help.
