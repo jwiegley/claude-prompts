@@ -12,8 +12,14 @@ Remember the following:
   research and discovering resources.
 - Use sequential-thinking when appropriate to break down tasks further.
 - Use context7 whenever code examples might help.
+- Use `andoria make` for building on a Linux machine to test any changes
+  that you make.
+- You can ssh to andoria-08 and within the `tron/work/<WORKTREE NAME>`
+  directory use `nix develop --command FOO` to run any arbitrary command `FOO`
+  on that machine.
 
 Ultrathink. Think deeply to analyze the following query, use pal to build
 consensus among your partner LLMs and construct a well thought out plan of
 action based on the following context, and then carefully execute that plan
 step by step:
+
