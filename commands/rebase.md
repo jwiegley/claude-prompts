@@ -1,0 +1,1 @@
+/heavy I want to Git rebase the current working tree onto the $ARGUMENTS branch. Use haskell-pro to analyze and resolve these conflicts in a way that preserves the semantics of the incoming changes, while maintaining the intent of the current working tree's work. Continue until the branch is fully rebased.
