@@ -1,8 +1,11 @@
 /.credentials.json
+/cache/changelog.md
 /config/
 /debug/
 /file-history/
 /history.jsonl
+/ide/
+/paste-cache/
 /plugins/
 /projects/
 /settings.json
@@ -13,5 +16,4 @@
 /skills/persian/Translations/
 /statsig/
 /todos/
-/ide/
 stats-cache.json
