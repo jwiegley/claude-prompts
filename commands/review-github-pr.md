@@ -19,7 +19,7 @@ The user will review your analysis and decide what (if anything) to post to GitH
 
 Follow these steps:
 
-1. Use `git worktree` to create a worktree and branch for the PR inside a `work` sub-directory. For example, if the PR number is 1024, then create a branch named `pr-1024` and a working tree that has checked out that branch in `work/pr-1024`.
+1. Use `git worktree` to create a worktree and branch for the PR inside a `work` sub-directory. For example, if the PR number is 1024, then create a branch named `pr-1024` and a working tree that has checked out that branch in `work/pr-1024`. However, only do this if you are not already in a working tree under the `work` directory.
 2. Use `gh pr view` to get the PR details (read-only)
 3. Use `gh pr diff` to get the PR diff (read-only)
 4. Understand the problem described in the PR

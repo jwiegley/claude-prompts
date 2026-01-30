@@ -1,0 +1,13 @@
+{
+  "id": "3",
+  "subject": "Run Haskell ingest and fix FxTypedFx.hs",
+  "description": "Run cabal run ingest on the exported trace. Fix any unsupported ops in FxTypedFx.hs. Key areas to check:\n- RoPE handling (may need pattern matching for interleaved variant)\n- MQA attention with 2 groups\n- SwiGLU activation (chunk + silu pattern)\n- RMSNorm (should work if Llama is supported)",
+  "activeForm": "Adding ChatGLM2 SDPA rewrite pattern",
+  "status": "completed",
+  "blocks": [
+    "4"
+  ],
+  "blockedBy": [
+    "2"
+  ]
+}

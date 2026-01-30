@@ -1,0 +1,13 @@
+{
+  "id": "5",
+  "subject": "Extract golden logits from PyTorch",
+  "description": "Blocked by transformers 5.0 dev version incompatibility with ChatGLM2 model code. Created bin/extract_chatglm2_logits script but model loading fails due to attribute errors. Requires either downgrading transformers or fixing the model code further.",
+  "activeForm": "Extracting golden logits",
+  "status": "in_progress",
+  "blocks": [
+    "6"
+  ],
+  "blockedBy": [
+    "4"
+  ]
+}
