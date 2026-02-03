@@ -1,4 +1,4 @@
-Ultrathink. Use task-orchestrator to analyze and coordinate work
+Use task-orchestrator to analyze and coordinate work
 
 Pay close attention to the comments and restrictions in @CLAUDE.md
 

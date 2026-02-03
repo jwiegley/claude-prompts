@@ -22,8 +22,7 @@ Remember the following:
   use `nix develop --command FOO` to run any arbitrary command `FOO` on that
   machine.
 
-Ultrathink. Think deeply to analyze the following query, use pal to build
-consensus among your partner LLMs and construct a well thought out plan of
-action based on the following context, and then carefully execute that plan
-step by step:
+Think deeply to analyze the following query, use pal to build consensus among
+your partner LLMs and construct a well thought out plan of action based on the
+following context, and then carefully execute that plan step by step:
 

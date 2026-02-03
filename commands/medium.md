@@ -9,6 +9,6 @@ Remember the following:
 - Use sequential-thinking when appropriate to break down tasks further.
 - Use context7 whenever code examples might help.
 
-Ultrathink. Think deeply to analyze the following query, construct a well
-thought out plan of action based on the following context, and then carefully
-execute that plan step by step:
+Think deeply to analyze the following query, construct a well thought out plan
+of action based on the following context, and then carefully execute that plan
+step by step:
