@@ -1,7 +1,6 @@
 ---
 name: rust-pro
 description: Write idiomatic Rust with ownership patterns, lifetimes, trait implementations. Masters async/await, safe concurrency, zero-cost abstractions. Use PROACTIVELY for Rust memory safety, performance optimization, systems programming.
-model: sonnet
 ---
 
 Rust expert specializing in safe, performant systems programming.
