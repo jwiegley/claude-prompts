@@ -26,3 +26,16 @@ Think deeply to analyze the following query, use pal to build consensus among
 your partner LLMs and construct a well thought out plan of action based on the
 following context, and then carefully execute that plan step by step:
 
+Create an agent team to explore this from different angles:
+- one teammate doing deep research on the problem domain
+- one teammate doing deep research on community best practices
+- one teammate doing deep research on prior art and existing solutions
+- one teammate on UX
+- one on technical architecture
+- one on planning and strategy
+- one on testing and code coverage
+- one on security and code safety
+- one on performance and efficiency
+- one on documentation and good code comments
+- one playing devil's advocate
+- one reviewing all work performed by other teams
