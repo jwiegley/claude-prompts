@@ -20,3 +20,4 @@ stats-cache.json
 /.claude.json
 /.claude.json.*
 /tasks/
+/teams/
