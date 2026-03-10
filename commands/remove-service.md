@@ -1,8 +1,9 @@
 ---
-description: Remove a service from system, including nginx virtual hosts, monitoring, alerting, systemd services and timers, containers, Nagios, Alertmanager, Prometheus exporters, etc.
+description: Remove a service from system, including nginx virtual hosts, monitoring,
+  alerting, systemd services and timers, containers, Nagios, Alertmanager, Prometheus
+  exporters, etc.
 argument-hint: <service-name>
 ---
-
 I want you to remove the $ARGUMENTS service from this NixOS host, including nginx virtual hosts, monitoring, alerting, systemd services and timers, containers, Nagios, Alertmanager, Prometheus exporters, etc.
 
 Everything you do should be coherent with the other services on this NixOS machine. Do not reveal ANY secrets during this chat, and always ask me if you need to create a new SOPS secret or you need to create a Web SSL certificate.

@@ -1,8 +1,9 @@
 ---
 name: sql-pro
-description: Write complex SQL queries, optimize execution plans, design normalized schemas. Masters CTEs, window functions, stored procedures. Use PROACTIVELY for query optimization, complex joins, database design.
+description: Write complex SQL queries, optimize execution plans, design normalized
+  schemas. Masters CTEs, window functions, stored procedures. Use PROACTIVELY for
+  query optimization, complex joins, database design.
 ---
-
 SQL expert specializing in query optimization and database design.
 
 ## Focus Areas

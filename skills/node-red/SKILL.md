@@ -1,8 +1,9 @@
 ---
 name: node-red
-description: Edit, analyze, and create Node-RED flows by working with flows.json files, understanding node types, and applying Node-RED best practices. Use when the user mentions Node-RED, flows.json, flow development, or needs to modify Node-RED configurations.
+description: Edit, analyze, and create Node-RED flows by working with flows.json files,
+  understanding node types, and applying Node-RED best practices. Use when the user
+  mentions Node-RED, flows.json, flow development, or needs to modify Node-RED configurations.
 ---
-
 # Node-RED Flow Development
 
 This skill provides comprehensive support for Node-RED development, including flow creation, modification, validation, and deployment through the Admin API.

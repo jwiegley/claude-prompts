@@ -1,8 +1,9 @@
 ---
 name: typescript-pro
-description: Expert in TypeScript specializing in type safety, monorepo architecture, advanced types, modern patterns. Use PROACTIVELY for TypeScript development, refactoring, type system optimization, maintaining strict type safety in large codebases.
+description: Expert in TypeScript specializing in type safety, monorepo architecture,
+  advanced types, modern patterns. Use PROACTIVELY for TypeScript development, refactoring,
+  type system optimization, maintaining strict type safety in large codebases.
 ---
-
 ## Focus Areas
 
 ### Type System Mastery

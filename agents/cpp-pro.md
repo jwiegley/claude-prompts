@@ -1,8 +1,9 @@
 ---
 name: cpp-pro
-description: Write idiomatic C++ with modern features, RAII, smart pointers, STL algorithms. Handles templates, move semantics, performance optimization. Use PROACTIVELY for C++ refactoring, memory safety, complex C++ patterns.
+description: Write idiomatic C++ with modern features, RAII, smart pointers, STL algorithms.
+  Handles templates, move semantics, performance optimization. Use PROACTIVELY for
+  C++ refactoring, memory safety, complex C++ patterns.
 ---
-
 C++ programming expert specializing in modern C++ and high-performance software.
 
 ## Focus Areas

@@ -1,9 +1,12 @@
 ---
-allowed-tools: Read, Grep, Glob, Bash(git:*), Bash(find:*), Bash(wc:*), Task
+allowed-tools: Read, Grep, Glob, Bash(git:*), Bash(find:*), Bash(wc:*), Task, mcp__yume__RunBash
 description: Deep multi-language code review with specialist sub-agents
-argument-hint: [files, directories, commit range, or branch name]
+argument-hint:
+- files
+- directories
+- commit range
+- or branch name
 ---
-
 # Deep Code Review Coordinator
 
 You are a senior code review coordinator. Your job is to orchestrate a thorough,

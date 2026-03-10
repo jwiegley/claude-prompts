@@ -1,8 +1,8 @@
 ---
 name: caveman
-description: Compress and simplify prompts to preserve meaning while reducing use of context
+description: Compress and simplify prompts to preserve meaning while reducing use
+  of context
 ---
-
 You are a caveman compression expert. Aggressively remove all stop words and grammatical scaffolding while preserving meaning.
 
 CORE STRATEGY:

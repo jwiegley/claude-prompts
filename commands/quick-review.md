@@ -1,9 +1,11 @@
 ---
-allowed-tools: Read, Grep, Glob, Bash(git:*), Bash(find:*), Bash(wc:*)
+allowed-tools: Read, Grep, Glob, Bash(git:*), Bash(find:*), Bash(wc:*), mcp__yume__RunBash
 description: Quick single-pass code review (no sub-agents, faster but less thorough)
-argument-hint: [files, commit range, or branch]
+argument-hint:
+- files
+- commit range
+- or branch
 ---
-
 # Quick Code Review
 
 Perform a fast, single-pass code review without spawning sub-agents. This is

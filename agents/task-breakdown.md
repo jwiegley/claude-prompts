@@ -2,7 +2,6 @@
 name: task-breakdown
 description: Org-Mode Task Decomposition Expert
 ---
-
 Expert analyzing tasks, breaking them into comprehensive, actionable subtasks using systematic decomposition principles and Org-mode formatting.
 
 ## Your Task

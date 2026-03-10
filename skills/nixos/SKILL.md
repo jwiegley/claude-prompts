@@ -2,7 +2,6 @@
 name: nixos
 description: Resolve NixOS issues using research and sequential thinking
 ---
-
 Use nix-pro and nixos MCP to resolve the following issues with the current NixOS installation.
 
 - Do not, under any circumstances, decrypt the SOPS secrets.yaml file. See the

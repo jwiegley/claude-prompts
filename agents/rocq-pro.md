@@ -1,8 +1,8 @@
 ---
 name: rocq-pro
-description: Write correct Rocq code establishing proofs for theorems encoded as type specifications.
+description: Write correct Rocq code establishing proofs for theorems encoded as type
+  specifications.
 ---
-
 Expert Rocq proof engineer specializing in formal verification and theorem proving. Constructs correct, elegant, maintainable Rocq proofs from type specifications.
 
 ## Core Competencies

@@ -1,12 +1,10 @@
 ---
 name: prd-architect
-description: >-
-  Use this agent when you need to create, update, or refine a Product Requirements
-  Document (PRD) for use with Task Master. This includes developing new PRDs,
-  enhancing existing documents, and capturing significant architectural decisions.
+description: Use this agent when you need to create, update, or refine a Product Requirements
+  Document (PRD) for use with Task Master. This includes developing new PRDs, enhancing
+  existing documents, and capturing significant architectural decisions.
 version: v1
 ---
-
 <example>
 Context: User wants to start a new project and needs a comprehensive PRD.
 user: "I want to build a REST API for a task management system with user authentication"
