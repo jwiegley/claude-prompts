@@ -20,7 +20,7 @@ When the user runs `/cozempic` with no arguments:
 
    > **Cozempic** — Context Weight-Loss Tool
    >
-   > Current session: **X.XX MB** (N messages)
+   > Current session: **X.XX MB** (N messages), **XX.XK tokens** (XX% context)
    >
    > Cozempic prunes bloated Claude Code sessions by collapsing progress ticks,
    > deduplicating file reads, stripping metadata, and more. Prescriptions range
@@ -53,6 +53,8 @@ Run diagnosis and show results:
 ```bash
 cozempic current --diagnose
 ```
+The output includes **Tokens** (exact or heuristic estimate) and a **Context** bar showing % of the 200K context window used. Always surface both to the user.
+
 After showing results, suggest a prescription:
 - `gentle` — Safe, minimal: progress collapse + file-history dedup + metadata strip
 - `standard` — Recommended: + thinking blocks, tool trim, stale reads, system reminders
@@ -71,16 +73,19 @@ Ask if they'd like to treat.
    ```bash
    cozempic current --diagnose
    ```
+   **Important:** The output includes token count and context % bar — always surface these to the user (e.g. "83.0K tokens, 42% context used").
 
 2. Recommend a prescription based on bloat profile, then dry-run:
    ```bash
    cozempic treat current -rx <prescription>
    ```
+   The dry-run output includes a `Tokens:` line showing token savings — always include this when presenting results.
 
-3. Show the dry-run results, then ask confirmation to apply. On confirmation:
+3. Show the dry-run results, then ask confirmation to apply. On confirmation, run `reload` which does treat + save + auto-resume watcher in one shot:
    ```bash
-   cozempic treat current -rx <prescription> --execute && cozempic reload
+   cozempic reload -rx <prescription>
    ```
+   **Do NOT run `cozempic treat --execute` before `cozempic reload`** — reload already treats internally. Running both double-treats and breaks the watcher.
 
 4. Tell the user: *"Treatment applied. Type `/exit` — a new Terminal window will open automatically with the pruned session."*
 

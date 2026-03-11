@@ -1,5 +1,5 @@
 ---
-allowed-tools: Read, Grep, Glob, Bash(git:*), Bash(find:*), Bash(wc:*), Task, mcp__yume__RunBash
+allowed-tools: Read, Grep, Glob, Bash(git:*), Bash(find:*), Bash(wc:*), Task
 description: Deep multi-language code review with specialist sub-agents
 argument-hint:
 - files

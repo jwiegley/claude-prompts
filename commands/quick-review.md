@@ -1,5 +1,5 @@
 ---
-allowed-tools: Read, Grep, Glob, Bash(git:*), Bash(find:*), Bash(wc:*), mcp__yume__RunBash
+allowed-tools: Read, Grep, Glob, Bash(git:*), Bash(find:*), Bash(wc:*)
 description: Quick single-pass code review (no sub-agents, faster but less thorough)
 argument-hint:
 - files

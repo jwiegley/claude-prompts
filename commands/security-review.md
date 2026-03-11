@@ -1,5 +1,5 @@
 ---
-allowed-tools: Read, Grep, Glob, Bash(git:*), Bash(find:*), Bash(grep:*), Bash(wc:*), mcp__yume__RunBash
+allowed-tools: Read, Grep, Glob, Bash(git:*), Bash(find:*), Bash(grep:*), Bash(wc:*),
   Task
 description: Security-focused code review
 argument-hint:
