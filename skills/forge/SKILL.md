@@ -25,7 +25,7 @@ Each analytical phase (1, 2, 4, 5) uses Opus as orchestrator and builds multi-mo
 ## Prerequisites
 
 - The current session must be running on Opus (`claude-opus-4-6`)
-- PAL MCP server must be running with access to `gpt-5.4-pro` and `gemini-3-pro-preview`
+- PAL MCP server must be running with access to `gpt-5.4-pro` and `gemini-3.1-pro-preview`
 - To verify model availability, call `mcp__pal__listmodels` before starting
 
 If PAL MCP is unavailable or a partner model is missing, inform the user and halt. Do not fall back to single-model operation -- the value of Forge comes from multi-model collaboration.
@@ -43,7 +43,7 @@ Conduct thorough investigation of the problem before any planning or coding.
 - Collect relevant file paths and code snippets for partner model consumption
 
 **Step 1.2 -- Systematic deep analysis:**
-Use `mcp__pal__thinkdeep` (for debugging/investigation) or `mcp__pal__analyze` (for architecture/feature analysis) to perform structured multi-step investigation. Pass `relevant_files` with absolute paths to all pertinent source files. Set model to `gemini-3-pro-preview`.
+Use `mcp__pal__thinkdeep` (for debugging/investigation) or `mcp__pal__analyze` (for architecture/feature analysis) to perform structured multi-step investigation. Pass `relevant_files` with absolute paths to all pertinent source files. Set model to `gemini-3.1-pro-preview`.
 
 **Step 1.3 -- Multi-model consensus on findings:**
 Use `mcp__pal__consensus` to gather perspectives from both partner models:
@@ -51,7 +51,7 @@ Use `mcp__pal__consensus` to gather perspectives from both partner models:
 ```
 models: [
   {"model": "gpt-5.4-pro", "stance": "neutral"},
-  {"model": "gemini-3-pro-preview", "stance": "neutral"}
+  {"model": "gemini-3.1-pro-preview", "stance": "neutral"}
 ]
 ```
 
@@ -89,7 +89,7 @@ Use `mcp__pal__consensus`:
 ```
 models: [
   {"model": "gpt-5.4-pro", "stance": "neutral"},
-  {"model": "gemini-3-pro-preview", "stance": "neutral"}
+  {"model": "gemini-3.1-pro-preview", "stance": "neutral"}
 ]
 ```
 
@@ -147,7 +147,7 @@ Run `git diff` (or `git diff HEAD~N..HEAD` if changes were committed) to capture
 
 **Step 4.2 -- Structured code review:**
 Use `mcp__pal__codereview` for systematic review:
-- Set `model` to `gemini-3-pro-preview`
+- Set `model` to `gemini-3.1-pro-preview`
 - Set `review_type` to `full`
 - Include the diff via `relevant_files` (pass the changed file paths)
 - In the step narrative, cover: correctness, security, performance, architecture, and test coverage
@@ -158,7 +158,7 @@ Use `mcp__pal__consensus`:
 ```
 models: [
   {"model": "gpt-5.4-pro", "stance": "neutral"},
-  {"model": "gemini-3-pro-preview", "stance": "neutral"}
+  {"model": "gemini-3.1-pro-preview", "stance": "neutral"}
 ]
 ```
 
@@ -211,7 +211,7 @@ models: [
       review report -- what did the reviewers miss or dismiss too easily?"
   },
   {
-    "model": "gemini-3-pro-preview",
+    "model": "gemini-3.1-pro-preview",
     "stance": "against",
     "stance_prompt": "You are a security auditor and reliability engineer.
       Assume this code will be attacked by adversaries and subjected to
@@ -262,7 +262,7 @@ If no critical issues remain, confirm the implementation is ready and note any m
 |------|---------------|---------|
 | Orchestrator | (native Opus) | All phases |
 | Partner 1 | `gpt-5.4-pro` | Consensus in Phases 1, 2, 4, 5 |
-| Partner 2 | `gemini-3-pro-preview` | Consensus + codereview in Phases 1, 2, 4, 5 |
+| Partner 2 | `gemini-3.1-pro-preview` | Consensus + codereview in Phases 1, 2, 4, 5 |
 | Executor | `sonnet` (Task tool model param) | Phase 3 only |
 
 ## Constraints
