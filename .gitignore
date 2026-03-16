@@ -15,6 +15,7 @@
 /plugins/
 /projects/
 /session-env/
+/sessions/
 /shell-snapshots/
 /statsig/
 /tasks/
